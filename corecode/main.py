@@ -148,8 +148,10 @@ if __name__ == "__main__":
     # init hyper-parameter
     max_ker_len = min(int(seq_len * 0.5),40)
     batch_size = 100
-
-    # get_session()
+    try:
+        get_session()
+    except:
+        print("No GPU !")
 
     # Determine the type of model
     if mode == "CNN":
