@@ -1,6 +1,6 @@
 # vConv
 
-vConv is designed as a variant of the canonical convolutional kernel which could adjust the kernel length adaptively during the training. For more information, see the manuscript [Identifying complex sequence patterns with a variable-convolutional layer effectively and efficiently](https://doi.org/10.1101/508242). <!--A repository for reproducing figures and tables in the manuscript is accessible at [https://github.com/gao-lab/vConv-Figures_and_Tables].-->
+vConv is designed as a variant of the canonical convolutional kernel which could adjust the kernel length adaptively during the training. For more information, see the manuscript [Identifying complex sequence patterns with a variable-convolutional layer effectively and efficiently](https://doi.org/10.1101/508242). A repository for reproducing figures and tables in the manuscript is accessible at [https://github.com/gao-lab/vConv-Figures_and_Tables].
 
 The current Class VConv1D is implemented based on the [original Keras Conv1D layer](https://keras.io/api/layers/convolution_layers/convolution1d/).
 
